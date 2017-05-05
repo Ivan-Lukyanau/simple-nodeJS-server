@@ -1,0 +1,19 @@
+{
+  "name": "simple-nodejs-server",
+  "version": "1.0.0",
+  "description": "first simple server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "IvanLu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0"
+  }
+}
